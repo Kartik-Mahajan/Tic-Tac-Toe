@@ -108,6 +108,7 @@ let App = () => {
 							<h1 className="text-success text-uppercase text-center">
 								{winMessage}
 							</h1>
+		{/*Here calling Reload game on button click .. Paranthesis should not be called allong with caz if called it will run the reload game before the even is triggered*/}
 							<Button color="success" block onClick={reloadGame}>
 								Click To reloadGame
 							</Button>
